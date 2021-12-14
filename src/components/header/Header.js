@@ -59,7 +59,6 @@ const Header = ({
       <RepoTitleInfo>
         <RepoLogoSVG />
         <Anchor
-          href={url}
           color="#0366d6"
         >
           {login}
@@ -68,7 +67,6 @@ const Header = ({
         <Anchor
           color="#0366d6"
           fontWeight="bold"
-          href={html_url}
         >
           {name}
         </Anchor>
